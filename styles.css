@@ -5,6 +5,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 }
 
 ul{
@@ -21,6 +22,7 @@ a{
 .footer{
     background-color: #1f2937;
     display: flex;
+    padding: 50px;
 }
 
 .header{
@@ -45,4 +47,19 @@ a{
     font-size: 24px;
     font-weight: 700;
     color: #f9faf8;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-box{
+    background-color: #6d747e;
+    padding: 100px 150px;
+    margin: 70px;
+    color: #e5e7eb;
+    font-size: 18px;
 }
