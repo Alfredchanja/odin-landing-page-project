@@ -99,6 +99,10 @@ button{
     border-style: none;
 }
 
+button.button{
+    width: auto;
+}
+
 .title{
     display: flex;
     justify-content: center;
