@@ -128,3 +128,26 @@ button.button1{
     color: #bfc2ca;
     margin-bottom: 100px;
 }
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 200px 350px 200px 350px;
+    color: #1f2937;
+}
+
+.main-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author{
+    align-self: flex-end;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
